@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body background="img/7568c073cd74f441a11a9c6829c7957b.png">
+    <!-- <img src="img/7568c073cd74f441a11a9c6829c7957b.png" alt="fon"> -->
+
+    <p class="tochki">
+        <input type="radio" name="color" value="yellow" id="1">
+        <label for="1"> RoundTrip</label>
+        <input type="radio" name="color" value="green" id="2">
+        <label for="2">OneWay</label>
+        <input type="radio" name="color" value="black" id="3">
+        <label for="3">Multi-City</label>
+        <!-- <p><input type="radio" name="color" value="green" id="2">
+            <label for="2">OneWay</label>
+        </p>
+        <p> <input type="radio" name="color" value="black" id="3">
+            <label for="3">Multi-City</label>
+        </p> -->
+
+    </p>
+    <form action="2">
+        <legend><label for="4">Flying From</label></legend>
+        <input type="text" name="username" placeholder="Flying From" required id="4" />
+
+        <legend><label for="5">Flying To</label></legend>
+        <input type="text" name="username" placeholder="Flying To" required id="5" />
+        <legend><label for="">Deparding</label></legend>
+        <input type="date" name="birthday" />
+        <legend><label for="">Returning</label></legend>
+        <input type="date" name="birthday" />
+        <legend><label for=""> Adults(18+)</label></legend>
+        <input type="number" name="age" placeholder="" min="1" max="100" />
+        <legend><label for=""> Children(1-17)</label></legend>
+        <input type="number" name="age" placeholder="" min="0" max="100" />
+
+    </form>
+    <form action="2">
+        <legend><label for="">Travel Class</label></legend>
+        <select name="class">
+            <option value="red">select class</option>
+            <option value="yellow">economy</option>
+            <option value="yellow">premium economy</option>
+            <option value="yellow">business</option>
+            <option value="yellow">first class</option>
+          </select>
+        <input type="button" value="Show Flights" id="button" />
+    </form>
+
+
+</body>
+
+</html>
