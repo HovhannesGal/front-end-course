@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header,
+main,
+aside,
+footer{
+    border-radius: 10px;
+    padding:20px
+    box-shadow: inset 1px -6px 12px 0px #0000008c;
+} */
+
+
+p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header,footer{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body {
+  padding: 20px;
+  height: 100vh;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns:minmax(500px 4fr) 4fr 1fr;
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer ";
+}
+
+header {
+  grid-area: header;
+  background-color: blue;
+}
+
+main {
+  grid-area: main;
+  background-color: green;
+}
+
+aside {
+  grid-area: aside;
+  background-color: red;
+}
+
+footer {
+  grid-area: footer;
+  background-color: blue;
+}
+
+body > *,
+main .container div{
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: inset 1px -6px 12px 0px #0000008c;
+    color: white;
+    font-size: 15px;
+}
+
+/* main .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+main .container div{
+    width: 100px;
+    height: 100px;
+    margin:0 20px 20px 0;
+    background-color: rgb(12, 236, 236);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+main .container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+grid-auto-rows: 100px;
+}
+main .container div {
+    background-color: rgb(12, 236, 236);
+    
+}

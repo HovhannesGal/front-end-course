@@ -1,63 +1,64 @@
 * {
-    box-sizing: border-box;
-    margin: 5px;
-    padding: 5px;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
 }
 
-.yndhanur {
-    height: 750px;
-    width: 800px;
-    display: flex;
-    border: 1px solid black;
-    flex-direction: column;
+.container {
+  width: 800px;
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
 }
 
-.header {
-    height: 100px;
-    width: 770px;
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    color: cornsilk;
-    font-size: 25px;
-    border-radius: 7px;
+header {
+  height: 100px;
+  width: 770px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: cornsilk;
+  font-size: 25px;
+  border-radius: 7px;
 }
 
-.main {
-    background-color: green;
-    padding: 10px;
-    color: cornsilk;
-    font-size: 25px;
-    border-radius: 7px;
-    display: flex;
-    width: 650px;
-    height: 500px;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-flow: row wrap;
+main {
+  background-color: green;
+  padding: 10px;
+  color: cornsilk;
+  font-size: 25px;
+  border-radius: 7px;
+  width: 650px;
+  min-height: 500px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-between;
 }
 
 .item {
-    color: cornsilk;
-    font-size: 25px;
-    border-radius: 7px;
-    min-height: 70px;
-    min-width: 70px;
-    display: flex;
-    background-color: lawngreen;
-    align-items: flex-start;
-    justify-content: space-between;
+  color: cornsilk;
+  font-size: 25px;
+  border-radius: 7px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  background-color: lawngreen;
+  align-items: center;
+  justify-content: center;
 }
 
-.foother {
-    height: 100px;
-    width: 770px;
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    color: cornsilk;
-    font-size: 25px;
-    border-radius: 7px;
+footer {
+  height: 100px;
+  width: 770px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: cornsilk;
+  font-size: 25px;
+  border-radius: 7px;
 }
