@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+.div1,
+.div2,
+.div3 {
+    
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+}
+
+.div1{
+background-color: magenta;
+
+}
+
+.div2{
+background-color: mediumorchid;
+
+}
+
+.div3{
+background-color: peru;
+
+}
+.div1 div{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(83, 145, 153);
+}
+
+
+
