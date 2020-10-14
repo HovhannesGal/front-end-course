@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.yndhanur{
+    height: 1000px;
+    width: 1000px;
+background-color: blue;
+}
+
+.dexin,
+.karmir,
+.kanach,
+.fioletovi
+ {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    
+}
+
+.dexin{
+    background-color: yellow;
+    position:absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.karmir{
+    
+    background-color: red;
+    position: relative;
+    left: 250px;
+    top: 250px;
+
+}
+
+.kanach{
+    background-color: green;
+    position: relative;
+    left:center;
+    top: 300px;
+}
+
+.fioletovi{
+    background-color: purple;
+    position: relative;
+    left: 400px;
+    top: 400px;
+}
