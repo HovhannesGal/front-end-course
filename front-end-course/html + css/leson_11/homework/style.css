@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.case {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 200px;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 60px;
+    background-color: palevioletred;
+}
+
+.kapuyt {
+    background-color: blue;
+    transform: rotate(60deg);
+    position: absolute;
+}
+
+.kanach {
+    background-color: green;
+    transform: rotate(120deg);
+}
+
+.morskoy {
+    background-color: lightskyblue;
+    transform: rotate(60deg);
+}
+
+.abs {
+    position: absolute;
+}
+
+.abs1 {
+    position: absolute;
+    transform: rotate(60deg);
+}
+
+.abs2 {
+    position: absolute;
+    transform: rotate(120deg);
+}
+
+.background_5 {
+    background-color: lightskyblue;
+    background: transparent;
+}
+
+.step5 {
+    background-color: lightskyblue;
+    width: 100px;
+    height: 100px;
+}

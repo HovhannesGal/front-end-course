@@ -1,0 +1,52 @@
+table{
+    border-spacing: 0px;
+}
+table tr  td {
+    /* border-width: 1px;
+    border-color: black;
+    border-style: solid;
+     */
+
+
+     /* border: 1px solid black;
+     border-top: none; */
+
+     /* border-right: 1px solid black; */
+     border: 1px solid black;
+}
+table thead tr td:not(:first-of-type){
+font-weight: bold;
+text-align: center;
+color:blue;
+
+}
+/* table thead tr td:first-of-type{
+    font-weight: initial;
+    color:initial;
+} */
+table tbody tr td:nth-last-of-type(5){
+    font-weight: bold;
+    color:red;
+}
+
+/* table tbody :nth-of-type(2) td:nth-of-type(3){
+    background-color: yellow;
+} */
+table thead :nth-of-type(3){
+    background-color:yellow;
+}
+table tbody tr:nth-of-type(2n){
+    background-color:green;
+}
+table tbody tr:nth-of-type(2) td:nth-of-type(3){
+    background-color:red;
+}
+/* .d3{
+    height:50px;
+} */
+input[type$="ail"]{
+    border: 2px solid blue;
+}
+/* input[type]{
+    background-color: red;
+} */
