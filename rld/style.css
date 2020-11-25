@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    overflow-x: hidden;
+    background-color: blue;
+}
+
+.container {
+    display: inline-flex;
+    margin: 100px;
+}
+
+.container .card:not(:first-of-type) {
+    margin-left: -165px;
+}
+
+.container .card strong {
+    font-size: 42px;
+    margin-top: 50px;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 12px 0px #00000026;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.25s ease;
+}
+
+.container .card:hover {
+    transform: translateY(-7%);
+}
+
+.container .card:hover~.card {
+    transform: translateX(180px);
+}
+
+.container .card .list button {
+    background-color: transparent;
+    border: 1px solid #96c6f2;
+    border-radius: 9999px;
+    padding: 6px 15px;
+    margin: 5px;
+}
